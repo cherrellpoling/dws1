@@ -1,21 +1,21 @@
 body {
 
-/* Got the colors from kuler website, set is called Japanese Garden */
 	font family: Arial;
+	text-align: justify;
 	background-color: #D8CAA8;
 	color: #363942;
 	}
 	
 h1{
+	font-family: 'Andada', serif;
 	color: rgb(92,131,47);
 	background-color:#363942;
 
 	}	
-	/*Used the color from kuler website and translated it into hsla for use as background 
-	color*/
 h2 {
+	font-family: 'Andada', serif;
 	color: #382513;
-	background-color:hsla(88, 47%, 35%, 1);
+	background-color:#5C832F;
 	}
 ol{
 	background-color: rgb(54,57,66);
@@ -23,4 +23,7 @@ ol{
 
 }
 
-	
+p.one{
+	font-style:italic;
+
+}
