@@ -8,12 +8,15 @@ body {
 	
 h1{
 	font-family: 'Andada', serif;
+	letter-spacing: 0.2em;
 	color: rgb(92,131,47);
 	background-color:#363942;
+	text-shadow: 1px 1px 3px #666666;
 
 	}	
 h2 {
 	font-family: 'Andada', serif;
+	text-shadow:1px 1px 3px #666666;
 	color: #382513;
 	background-color:#5C832F;
 	}
@@ -23,7 +26,20 @@ ol{
 
 }
 
-p.one{
-	font-style:italic;
+#wiki{
+	font-style: italic; 
+	line-height: 3em;
 
 }
+
+#contents{
+	font-size:14pt;
+	text-transform: uppercase;
+	font-weight: bold; 
+	text-decoration: underline;
+}
+
+a:link { color: lime; text-decoration: none;}
+a:visited { color: white;}
+a:hover { color: lime; text-decoration: underline;}
+a:active { color: darkcyan;}
