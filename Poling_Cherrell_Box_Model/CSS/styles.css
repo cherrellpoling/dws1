@@ -1,0 +1,69 @@
+
+ 
+div{
+	height:1675px;
+	width: 600px;
+	background-color:#666666;
+	margin:2px;
+	padding:20px;
+	border:2px;
+	-moz-box-shadow: inset 0 0 10px #777777; 
+	-webkit-box-shadow: inset 0 0 10px #777777;
+	box-shadow: inset 0 0 10px #777777;
+	
+
+	}
+
+
+body {
+
+	font family: Arial;
+	text-align: center;
+	background-color: #D8CAA8;
+	color: #363942;
+	}
+	
+h1{
+	font-family: 'Andada', serif;
+	letter-spacing: 0.2em;
+	color: rgb(92,131,47);
+	background-color:#363942;
+	text-shadow: 1px 1px 3px #666666;
+
+	}	
+h2 {
+	font-family: 'Andada', serif;
+	text-shadow:1px 1px 3px #666666;
+	color: #382513;
+	background-color:#5C832F;
+	}
+ol{
+	list-style-type: lower-roman;
+	background-color: rgb(54,57,66);
+	opacity:0.4;
+
+
+}
+
+li{
+
+	display:block;
+	}
+
+#wiki{
+	font-style: italic; 
+	line-height: 3em;
+
+}
+
+#contents{
+	font-size:14pt;
+	text-transform: uppercase;
+	font-weight: bold; 
+	text-decoration: underline;
+}
+
+a:link { color: lime; text-decoration: none;}
+a:visited { color: white;}
+a:hover { color: lime; text-decoration: underline;}
+a:active { color: darkcyan;}
