@@ -17,10 +17,11 @@ width:90%;
 float:left;
 width:60%;
 padding:10px;
-background-color: #666666;
+background-color: #f3e5ab;
 
 }
 #sidebar {
+background: -webkit-linear-gradient(top, #e4efc0 0%,#abbd73 100%);
 float:right;
 width:30%;
 padding:20px;
@@ -31,10 +32,11 @@ body {
 
 	font family: Arial;
 	text-align: center;
-	background-color: #D8CAA8;
-	
-	
-	
+	background-image: url(/Users/cherrellstroud/Documents/dws1/Poling_Cherrell_Backgrounds/images/pattern_105.gif);
+	background-repeat: repeat; 
+	background-position: center top;}
+
+
 	
 	}
 	
