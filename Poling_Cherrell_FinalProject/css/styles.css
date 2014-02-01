@@ -1,0 +1,87 @@
+
+header, section, footer, aside, nav, article, figure, figcaption { 
+display: block;
+}
+
+div{
+	box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
+-moz-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
+-webkit-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
+border-radius: 15px;
+
+}
+
+.wrapper { width: 900px; 
+		margin: 20px auto 20px auto; 
+		border: 2px solid #000000; 
+		background-image: url(/Users/cherrellstroud/Documents/dws1/Poling_Cherrell_FinalProject/images/texture.jpg);
+		padding:30px;
+		opacity:0.8;}
+		
+body{
+
+	font-family: 'arial';
+	background-image: url(/Users/cherrellstroud/Documents/dws1/Poling_Cherrell_FinalProject/images/vintage.jpg);
+	background-repeat: repeat; 
+	background-position: center top;
+	}
+	
+a:link { color: black; text-decoration: none;}
+a:visited { color: white;}
+a:hover { color: black; text-decoration: underline;}
+a:active { color: #967864;}
+			
+h1, h2{
+	font-family: 'Paprika', cursive;
+	letter-spacing: 0.2em;
+	color: red;
+	background-color:#F0F0B9;
+	text-shadow: 1px 1px 3px #666666;
+	text-align: center;
+	font-style: italic;
+	}
+	
+nav ul { margin: 0px; padding: 5px 0px 5px 30px;
+	background-color: #C7B9B3;
+	
+}
+nav li { display: inline; margin-right: 10px;}
+ 
+ol{ 
+ list-style-type: lower-roman;
+ text-align: left;
+ }
+ 
+#contents{
+	font-size:14pt;
+	text-transform: uppercase;
+	font-weight: bold; 
+	text-decoration: underline;
+ 
+
+p{
+ text-align:left;
+ font-size: 13pt;
+ line-height: 1.2em;
+ }
+
+
+table { width: 400px;}
+th, td { padding: 7px 15px 15px 15px; text-align: center}
+th { text-transform: uppercase; letter-spacing: 0.5em; border-bottom: 2px solid #111111; border-top: 1px solid #999; text-align: left;}
+
+
+form { 
+width: "200 px"
+padding: "10px";
+margin: ".5px";
+font-size: "13pt";
+color: "yellow":
+border: "1px";
+text-align: "left";
+background-color : "red";
+}
+ 
+
+
+
